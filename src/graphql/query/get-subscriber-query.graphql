@@ -1,0 +1,9 @@
+query getSubscriber {
+  subscribers(stage: DRAFT) {
+    name
+    email
+    phone
+    message
+    createdAt
+  }
+}
