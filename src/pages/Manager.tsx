@@ -7,7 +7,6 @@ import ptBR from 'date-fns/locale/pt-BR'
 import { CSVLink } from "react-csv";
 import { FileArrowDown } from "phosphor-react";
 
-
 export function Manager(){
 
     const { data } = useGetSubscriberQuery() 
@@ -23,9 +22,6 @@ export function Manager(){
           row.push(data.createdAt)
           csvData.push(row)
         })
-
-  
-    
   
    return (
 
